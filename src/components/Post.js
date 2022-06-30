@@ -1,10 +1,10 @@
 import React from "react";
 
-const Post = ({ post }) => {
+const Post = ({ ele }) => {
   return (
     <div className="post">
-      <h3>{post.title}</h3>
-      <p>{post.body}</p>
+      <h3>{ele.title}</h3>
+      <p>{ele.body}</p>
     </div>
   );
 };
