@@ -1,5 +1,4 @@
 import React from "react";
-
 const Post = ({ ele }) => {
   return (
     <div className="post">
